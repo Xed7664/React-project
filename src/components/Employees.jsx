@@ -1,20 +1,20 @@
 
-import Employee from './Employee';
-import './Employees.css'; 
+import Employee from "./Employee";
+import './Employees.css';
 
 export default function Employees() {
   
   const employees = [
-    { name: 'John Doe', position: 'Manager', salary: 50000, status: 'Active' },
-    { name: 'Jane Smith', position: 'Developer', salary: 60000, status: 'Active' },
-    { name: 'Alice Johnson', position: 'Designer', salary: 55000, status: 'Active' },
-    { name: 'Bob Brown', position: 'Manager', salary: 52000, status: 'Active' },
-    { name: 'Charlie Davis', position: 'Developer', salary: 62000, status: 'Active' },
-    { name: 'Eve White', position: 'Designer', salary: 53000, status: 'Active' },
-    { name: 'Frank Black', position: 'Manager', salary: 51000, status: 'Active' },
-    { name: 'Grace Green', position: 'Developer', salary: 64000, status: 'Active' },
-    { name: 'Hank Blue', position: 'Designer', salary: 56000, status: 'Not Active' },
-    { name: 'Ivy Red', position: 'Developer', salary: 58000, status: 'Not Active' },
+    { name: 'Edwin Ortega Jr.', position: 'Manager', salary: 100000, status: 'Active' },
+    { name: 'Jei Navarro', position: 'Developer', salary: 160000, status: 'Active' },
+    { name: 'Aj Manas', position: 'Designer', salary: 55000, status: 'Active' },
+    { name: 'Jaybee Sucal', position: 'Manager', salary: 150000, status: 'Active' },
+    { name: 'Lebrown James', position: 'Developer', salary: 122000, status: 'Active' },
+    { name: 'Mikha Mot', position: 'Designer', salary: 53000, status: 'Active' },
+    { name: 'Irish Taller', position: 'Manager', salary: 140000, status: 'Active' },
+    { name: 'Mike Bustamante', position: 'Developer', salary: 200000, status: 'Active' },
+    { name: 'John Ericson Brigildo', position: 'Designer', salary: 86000, status: 'Not Active' },
+    { name: 'Lexy Lore', position: 'Developer', salary: 158000, status: 'Not Active' },
   ];
 
   return (
