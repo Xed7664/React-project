@@ -1,11 +1,9 @@
-
-import React from 'react';
-import Employees from './components/Employees';
+import Citizens from "./components/Citizens";
 
 function App() {
   return (
-    <div className="App">
-      <Employees />
+    <div>
+      <Citizens />
     </div>
   );
 }
